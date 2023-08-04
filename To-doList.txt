@@ -49,3 +49,17 @@ Heroku Deployment:
 
 Deploy your Flask web app using Heroku.
 Resource: Heroku Python Support
+
+#clarity
+So, here's the deal - we're diving into the world of OpenCV and making cool face detection models. Imagine this: you'll be able to spot faces
+like a pro! We're talking about learning stuff like YOLO and RCNN – they're like the secret sauce for detecting faces in a crowd.
+
+Once we've got that going, picture this: a magical bounding box around every face in a photo. It's like giving each person a cool frame!
+
+But wait, there's more. To take this up a notch, we can even display their names. How, you ask? Well, we'll stash a bunch of images in a 
+database. Each image is like a VIP pass for a person, and we'll pair it up with their name. We can use Firebase or something similar – 
+the tech wizards have got us covered.
+
+And the grand finale? We're going to match the faces our model finds with the images in the database. It's like finding a twin, but in photos. 
+We'll calculate this thing called "cosine similarity" – fancy, right? The one with the highest score gets its name displayed on that snazzy 
+bounding box.
