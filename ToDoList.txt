@@ -1,0 +1,51 @@
+Week 1: Basics of Machine Learning and Image Processing
+
+
+Python Basics:
+Learn fundamental Python programming concepts.
+Resource: Python.org
+Introduction to Machine Learning:
+
+Understand the basics of supervised learning, classification, and evaluation metrics.
+Resource: Coursera - Machine Learning by Andrew Ng
+Introduction to Image Processing:
+
+Learn about image manipulation, resizing, and basic filters.
+Resource: OpenCV Tutorials
+
+
+Week 2: Deep Learning and Face Recognition
+
+Introduction to Neural Networks:
+Understand neural network concepts and training.
+Resource: Neural Networks and Deep Learning
+
+Convolutional Neural Networks (CNNs):
+Learn about CNNs and how they're used for image classification.
+Resource: CS231n Convolutional Neural Networks
+Face Detection and Recognition:
+
+Explore OpenCV for face detection and recognition.
+Resource: OpenCV Face Recognition
+
+
+Week 3: Developing the Attendance System
+
+Feature Extraction:
+Extract facial features using pre-trained models like dlib.
+Resource: dlib Facial Recognition
+Training a Simple Classifier:
+
+Learn how to train a basic classifier using extracted features.
+Resource: Scikit-Learn Tutorials
+
+
+Week 4: Deployment and Integration
+
+Basic Web Development with Flask:
+Create a basic web app using Flask to upload images.
+Resource: Flask Official Documentation
+Heroku Deployment:
+
+Deploy your Flask web app using Heroku.
+Resource: Heroku Python Support
