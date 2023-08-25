@@ -8,11 +8,35 @@ Step 1 : Installing LabelImg
 To do this, you need a special tool called "LabelImg". It's like a little helper that makes it easy to draw those boxes. 
 First, you need to get LabelImg onto your computer. Think of this like downloading a new app on your phone. 
 You open a little command window on your computer, and you type: 
-pip install labelImg
+
+```pip install labelImg```
 
 
 Step 2 : Running LabelImg
 
 Now, after you've installed LabelImg, you can just tell your computer to open it up. You do this by typing:
-labelImg
+
+```labelImg```
+
 It's like saying, "Hey computer, please open up LabelImg for me."
+
+
+
+Open LabelImg : When you open LabelImg, the first thing you should do is change the 'Open Directory' 
+                to the folder where you've stored all the images you want to annotate. This tells LabelImg where to find your images.
+
+Set Save Directory : The 'Save Directory' is where LabelImg will store the annotations you create. 
+                     Make sure to choose a location where you can easily access these annotations later.
+
+Choose YOLO Mode : Since we're working with the YOLO model, you'll need to adjust the format for labeling.
+                   Click on the 'Change Save Format' button and select 'YOLO' from the dropdown menu. If there's no 'YOLO' option, choose 'CreateML to YOLO'. This ensures that the annotations are compatible with the YOLO model training process.
+
+Start Annotation : With the setup in place, you're ready to dive into annotating! 
+                   Use the drawing tool to create bounding boxes around the objects you want to label in each image.
+                   Be precise and make sure the boxes accurately encompass the object.
+
+Assign Classes : As you draw the bounding boxes, don't forget to assign the correct class to each object. 
+                 This tells the model what the object is. For example, if it's a 'car' or a 'cat', choose the appropriate class from the dropdown list.
+
+Save Your Work : After annotating an image, click the 'Save' button to save your annotations for that image.
+                 This keeps track of your hard work and prepares the data for training the YOLO model.
