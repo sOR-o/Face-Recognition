@@ -1,0 +1,11 @@
+If you've got loads of time on your hands, then go with the official documentations provided. 
+But if you're in a hurry, hang tight, 'cause I've got a quicker path for you right here!
+
+YOLOv8, or You Only Look Once version 8, is an evolution of the YOLO series of object detection models. 
+Developed as part of the Ultralytics toolkit, YOLOv8 aims to combine the strengths of previous YOLO versions while incorporating modern deep learning techniques. 
+It focuses on accuracy, speed, and flexibility for various computer vision tasks.
+explore : https://docs.ultralytics.com/
+
+Gradio is a user-friendly Python library designed to make it remarkably easy to create and share custom interfaces 
+for machine learning models. It's all about putting the power of AI in the hands of people without needing extensive coding knowledge.
+explore : https://www.gradio.app/docs/interface
