@@ -1,0 +1,18 @@
+Imagine you have a bunch of pictures and you want to draw boxes around certain things in those pictures. 
+Maybe you're trying to teach a computer to recognize those things in the future. 
+Like, you might want to point out all the cats in your cat picture collection so that the computer can learn to find cats on its own.
+
+
+Step 1 : Installing LabelImg
+
+To do this, you need a special tool called "LabelImg". It's like a little helper that makes it easy to draw those boxes. 
+First, you need to get LabelImg onto your computer. Think of this like downloading a new app on your phone. 
+You open a little command window on your computer, and you type: 
+pip install labelImg
+
+
+Step 2 : Running LabelImg
+
+Now, after you've installed LabelImg, you can just tell your computer to open it up. You do this by typing:
+labelImg
+It's like saying, "Hey computer, please open up LabelImg for me."
