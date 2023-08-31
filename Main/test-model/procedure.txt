@@ -1,0 +1,10 @@
+By following this procedure you can train the model on the datset provided.
+
+below is the step wise procedure to train and detect the object on google colab :
+
+1. Import all the libraries that are mentioned in the main.ipynb file.
+2. Mount you google drive. (make sure you are having the dataset uploaded in your drive)
+3. Use yolov8n.yaml to load a model on which you will be training the yolo model from the scratch.
+4. Use the train command to train the model on you custom dataset (make sure to change the path of train, val, and test in data.yaml file)
+5. Once the model is trained load the best.pt (trained model) for the object detection.
+6. You can detect objects in two ways by providing the path of the source image or by using the gradio interface.
