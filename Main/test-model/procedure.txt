@@ -8,3 +8,7 @@ below is the step wise procedure to train and detect the object on google colab 
 4. Use the train command to train the model on you custom dataset (make sure to change the path of train, val, and test in data.yaml file)
 5. Once the model is trained load the best.pt (trained model) for the object detection.
 6. You can detect objects in two ways by providing the path of the source image or by using the gradio interface..
+
+
+if you directly want to use our train model then upload the detect file into collab,
+update the paths accordingly and then only run the detect code cell using the best.pt model.
