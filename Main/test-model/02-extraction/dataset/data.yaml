@@ -1,0 +1,6 @@
+train: Our-learning/test-model/dataset/train/images
+val: Our-learning/test-model/dataset/valid/images
+test: Our-learning/test-model/dataset/test/images
+
+nc: 1
+names: ['face']
