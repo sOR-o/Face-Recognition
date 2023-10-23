@@ -13,7 +13,8 @@ This repository contains a comprehensive face recognition system that combines Y
 2. Install Dependencies : `pip install -r requirements.txt`
 3. play with code.
 
+-Can be improved by transfer learning (obviously 😉)
+
 ## Contributing
 Contributions to this project are welcome! If you'd like to contribute, feel free to submit issues, feature requests, or pull requests.
   
-
